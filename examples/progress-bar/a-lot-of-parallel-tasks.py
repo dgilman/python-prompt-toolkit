@@ -8,8 +8,8 @@ import random
 import threading
 import time
 
-from prompt_toolkit import HTML
-from prompt_toolkit.shortcuts import ProgressBar
+from prompt_toolkit2 import HTML
+from prompt_toolkit2.shortcuts import ProgressBar
 
 
 def main():

@@ -16,8 +16,8 @@ from __future__ import unicode_literals
 
 import time
 
-from prompt_toolkit.completion import Completer, Completion
-from prompt_toolkit.shortcuts import CompleteStyle, prompt
+from prompt_toolkit2.completion import Completer, Completion
+from prompt_toolkit2.shortcuts import CompleteStyle, prompt
 
 WORDS = [
     'alligator', 'ant', 'ape', 'bat', 'bear', 'beaver', 'bee', 'bison',

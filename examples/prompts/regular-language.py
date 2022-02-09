@@ -16,15 +16,15 @@ from __future__ import unicode_literals
 
 import math
 
-from prompt_toolkit import prompt
-from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.contrib.regular_languages.compiler import compile
-from prompt_toolkit.contrib.regular_languages.completion import (
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.completion import WordCompleter
+from prompt_toolkit2.contrib.regular_languages.compiler import compile
+from prompt_toolkit2.contrib.regular_languages.completion import (
     GrammarCompleter,
 )
-from prompt_toolkit.contrib.regular_languages.lexer import GrammarLexer
-from prompt_toolkit.lexers import SimpleLexer
-from prompt_toolkit.styles import Style
+from prompt_toolkit2.contrib.regular_languages.lexer import GrammarLexer
+from prompt_toolkit2.lexers import SimpleLexer
+from prompt_toolkit2.styles import Style
 
 operators1 = ['add', 'sub', 'div', 'mul']
 operators2 = ['sqrt', 'log', 'sin', 'ln']

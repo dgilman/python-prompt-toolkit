@@ -5,9 +5,9 @@ completions independently.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.completion import Completer, Completion
-from prompt_toolkit.output.color_depth import ColorDepth
-from prompt_toolkit.shortcuts import CompleteStyle, prompt
+from prompt_toolkit2.completion import Completer, Completion
+from prompt_toolkit2.output.color_depth import ColorDepth
+from prompt_toolkit2.shortcuts import CompleteStyle, prompt
 
 colors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow', 'cyan',
           'magenta', 'pink']

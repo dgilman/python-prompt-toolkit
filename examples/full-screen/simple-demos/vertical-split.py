@@ -4,11 +4,11 @@ Vertical split example.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout.containers import VSplit, Window
-from prompt_toolkit.layout.controls import FormattedTextControl
-from prompt_toolkit.layout.layout import Layout
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout.containers import VSplit, Window
+from prompt_toolkit2.layout.controls import FormattedTextControl
+from prompt_toolkit2.layout.layout import Layout
 
 # 1. The layout
 left_text = "\nVertical-split example. Press 'q' to quit.\n\n(left pane.)"

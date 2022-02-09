@@ -11,7 +11,7 @@ run on top of asyncio as well if needed.
 """
 import time
 
-from prompt_toolkit.eventloop import (
+from prompt_toolkit2.eventloop import (
     From,
     Future,
     Return,

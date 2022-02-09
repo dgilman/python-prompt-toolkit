@@ -4,9 +4,9 @@ Example of adding a custom key binding to a prompt.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.application import run_in_terminal
-from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.application import run_in_terminal
+from prompt_toolkit2.key_binding import KeyBindings
 
 
 def main():

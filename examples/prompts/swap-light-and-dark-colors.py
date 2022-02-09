@@ -11,12 +11,12 @@ from __future__ import unicode_literals
 
 from pygments.lexers.html import HtmlLexer
 
-from prompt_toolkit import prompt
-from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.filters import Condition
-from prompt_toolkit.formatted_text import HTML
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.lexers import PygmentsLexer
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.completion import WordCompleter
+from prompt_toolkit2.filters import Condition
+from prompt_toolkit2.formatted_text import HTML
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.lexers import PygmentsLexer
 
 html_completer = WordCompleter([
     '<body>', '<div>', '<head>', '<html>', '<img>', '<li>', '<link>', '<ol>',

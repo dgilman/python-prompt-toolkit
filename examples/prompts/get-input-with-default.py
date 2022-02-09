@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 
 import getpass
 
-from prompt_toolkit import prompt
+from prompt_toolkit2 import prompt
 
 if __name__ == '__main__':
     answer = prompt('What is your name: ', default='%s' % getpass.getuser())

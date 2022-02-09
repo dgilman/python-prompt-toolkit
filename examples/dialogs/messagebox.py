@@ -4,7 +4,7 @@ Example of a message box window.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.shortcuts import message_dialog
+from prompt_toolkit2.shortcuts import message_dialog
 
 
 def main():

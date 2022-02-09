@@ -5,8 +5,8 @@ any layout in a non-interactive way.
 """
 from __future__ import print_function, unicode_literals
 
-from prompt_toolkit.shortcuts import print_container
-from prompt_toolkit.widgets import Frame, TextArea
+from prompt_toolkit2.shortcuts import print_container
+from prompt_toolkit2.widgets import Frame, TextArea
 
 print_container(
     Frame(

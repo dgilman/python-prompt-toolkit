@@ -8,9 +8,9 @@ This is similar to RPROMPT is Zsh.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.formatted_text import ANSI, HTML
-from prompt_toolkit.styles import Style
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.formatted_text import ANSI, HTML
+from prompt_toolkit2.styles import Style
 
 example_style = Style.from_dict({
     # The 'rprompt' gets by default the 'rprompt' class. We can use this

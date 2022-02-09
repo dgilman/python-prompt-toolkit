@@ -4,11 +4,11 @@ Demo of the different Window alignment options.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout.containers import HSplit, Window, WindowAlign
-from prompt_toolkit.layout.controls import FormattedTextControl
-from prompt_toolkit.layout.layout import Layout
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout.containers import HSplit, Window, WindowAlign
+from prompt_toolkit2.layout.controls import FormattedTextControl
+from prompt_toolkit2.layout.layout import Layout
 
 LIPSUM = """Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Maecenas
 quis interdum enim. Nam viverra, mauris et blandit malesuada, ante est bibendum

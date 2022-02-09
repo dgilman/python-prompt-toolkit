@@ -7,7 +7,7 @@ over and over again. -- For now, this is the only way to get this working.)
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.shortcuts import PromptSession
+from prompt_toolkit2.shortcuts import PromptSession
 
 
 def main():

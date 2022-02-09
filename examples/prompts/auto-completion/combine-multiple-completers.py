@@ -4,8 +4,8 @@ Example of multiple individual completers that are combined into one.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.completion import (
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.completion import (
     Completer,
     WordCompleter,
     merge_completers,

@@ -1,4 +1,4 @@
-from prompt_toolkit.shortcuts.prompt import _split_multiline_prompt
+from prompt_toolkit2.shortcuts.prompt import _split_multiline_prompt
 
 
 def test_split_multiline_prompt():

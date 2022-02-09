@@ -7,10 +7,10 @@ from __future__ import unicode_literals
 
 import logging
 
-from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.contrib.telnet.server import TelnetServer
-from prompt_toolkit.eventloop import From, get_event_loop
-from prompt_toolkit.shortcuts import prompt
+from prompt_toolkit2.completion import WordCompleter
+from prompt_toolkit2.contrib.telnet.server import TelnetServer
+from prompt_toolkit2.eventloop import From, get_event_loop
+from prompt_toolkit2.shortcuts import prompt
 
 # Set up logging
 logging.basicConfig()

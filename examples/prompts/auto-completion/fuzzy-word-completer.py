@@ -9,8 +9,8 @@ Press [Tab] to complete the current word.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.completion import FuzzyWordCompleter
-from prompt_toolkit.shortcuts import prompt
+from prompt_toolkit2.completion import FuzzyWordCompleter
+from prompt_toolkit2.shortcuts import prompt
 
 animal_completer = FuzzyWordCompleter([
     'alligator', 'ant', 'ape', 'bat', 'bear', 'beaver', 'bee', 'bison',

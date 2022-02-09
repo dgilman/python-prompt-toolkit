@@ -4,14 +4,14 @@ Test the `print` function.
 from __future__ import print_function, unicode_literals
 
 import pytest
-from prompt_toolkit import print_formatted_text as pt_print
-from prompt_toolkit.formatted_text import (
+from prompt_toolkit2 import print_formatted_text as pt_print
+from prompt_toolkit2.formatted_text import (
     HTML,
     FormattedText,
     to_formatted_text,
 )
-from prompt_toolkit.styles import Style
-from prompt_toolkit.utils import is_windows
+from prompt_toolkit2.styles import Style
+from prompt_toolkit2.utils import is_windows
 
 
 class _Capture:

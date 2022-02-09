@@ -5,14 +5,14 @@ This could be used as inspiration for a REPL.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.document import Document
-from prompt_toolkit.filters import has_focus
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout.containers import HSplit, Window
-from prompt_toolkit.layout.layout import Layout
-from prompt_toolkit.styles import Style
-from prompt_toolkit.widgets import SearchToolbar, TextArea
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.document import Document
+from prompt_toolkit2.filters import has_focus
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout.containers import HSplit, Window
+from prompt_toolkit2.layout.layout import Layout
+from prompt_toolkit2.styles import Style
+from prompt_toolkit2.widgets import SearchToolbar, TextArea
 
 help_text = """
 Type any expression (e.g. "4 + 4") followed by enter to execute.

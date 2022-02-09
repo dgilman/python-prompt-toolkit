@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import time
 
-from prompt_toolkit.shortcuts import ProgressBar
-from prompt_toolkit.styles import Style
+from prompt_toolkit2.shortcuts import ProgressBar
+from prompt_toolkit2.styles import Style
 
 style = Style.from_dict({
     'title': '#4444ff underline',

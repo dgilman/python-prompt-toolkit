@@ -7,10 +7,10 @@ from __future__ import unicode_literals
 
 import time
 
-from prompt_toolkit.formatted_text import HTML
-from prompt_toolkit.shortcuts import ProgressBar
-from prompt_toolkit.shortcuts.progress_bar import formatters
-from prompt_toolkit.styles import Style
+from prompt_toolkit2.formatted_text import HTML
+from prompt_toolkit2.shortcuts import ProgressBar
+from prompt_toolkit2.shortcuts.progress_bar import formatters
+from prompt_toolkit2.styles import Style
 
 style = Style.from_dict({
     'progressbar title': '#0000ff',

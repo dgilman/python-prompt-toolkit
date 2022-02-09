@@ -6,10 +6,10 @@ from __future__ import unicode_literals
 
 import time
 
-from prompt_toolkit.output import ColorDepth
-from prompt_toolkit.shortcuts import ProgressBar
-from prompt_toolkit.shortcuts.progress_bar import formatters
-from prompt_toolkit.shortcuts.prompt import confirm
+from prompt_toolkit2.output import ColorDepth
+from prompt_toolkit2.shortcuts import ProgressBar
+from prompt_toolkit2.shortcuts.progress_bar import formatters
+from prompt_toolkit2.shortcuts.prompt import confirm
 
 
 def main():

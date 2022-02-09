@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 
 import time
 
-from prompt_toolkit.shortcuts import ProgressBar
+from prompt_toolkit2.shortcuts import ProgressBar
 
 
 def main():

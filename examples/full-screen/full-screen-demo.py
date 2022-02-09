@@ -5,21 +5,21 @@ from __future__ import unicode_literals
 
 from pygments.lexers.html import HtmlLexer
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.application.current import get_app
-from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.key_binding.bindings.focus import (
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.application.current import get_app
+from prompt_toolkit2.completion import WordCompleter
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.key_binding.bindings.focus import (
     focus_next,
     focus_previous,
 )
-from prompt_toolkit.layout.containers import Float, HSplit, VSplit
-from prompt_toolkit.layout.dimension import D
-from prompt_toolkit.layout.layout import Layout
-from prompt_toolkit.layout.menus import CompletionsMenu
-from prompt_toolkit.lexers import PygmentsLexer
-from prompt_toolkit.styles import Style
-from prompt_toolkit.widgets import (
+from prompt_toolkit2.layout.containers import Float, HSplit, VSplit
+from prompt_toolkit2.layout.dimension import D
+from prompt_toolkit2.layout.layout import Layout
+from prompt_toolkit2.layout.menus import CompletionsMenu
+from prompt_toolkit2.lexers import PygmentsLexer
+from prompt_toolkit2.styles import Style
+from prompt_toolkit2.widgets import (
     Box,
     Button,
     Checkbox,

@@ -4,7 +4,7 @@ Example of an password input dialog.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.shortcuts import input_dialog
+from prompt_toolkit2.shortcuts import input_dialog
 
 
 def main():

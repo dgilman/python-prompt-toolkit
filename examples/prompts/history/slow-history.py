@@ -9,8 +9,8 @@ from __future__ import unicode_literals
 
 import time
 
-from prompt_toolkit import PromptSession
-from prompt_toolkit.history import History, ThreadedHistory
+from prompt_toolkit2 import PromptSession
+from prompt_toolkit2.history import History, ThreadedHistory
 
 
 class SlowHistory(History):

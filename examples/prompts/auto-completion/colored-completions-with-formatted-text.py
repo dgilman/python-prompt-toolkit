@@ -6,9 +6,9 @@ and "display_meta" arguments of "Completion".
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.completion import Completer, Completion
-from prompt_toolkit.formatted_text import HTML
-from prompt_toolkit.shortcuts import CompleteStyle, prompt
+from prompt_toolkit2.completion import Completer, Completion
+from prompt_toolkit2.formatted_text import HTML
+from prompt_toolkit2.shortcuts import CompleteStyle, prompt
 
 animals = [
     'alligator', 'ant', 'ape', 'bat', 'bear', 'beaver', 'bee', 'bison',

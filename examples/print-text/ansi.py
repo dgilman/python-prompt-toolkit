@@ -7,8 +7,8 @@ parsed and turned into appropriate Win32 API calls on Windows.
 """
 from __future__ import print_function, unicode_literals
 
-from prompt_toolkit import print_formatted_text
-from prompt_toolkit.formatted_text import ANSI, HTML
+from prompt_toolkit2 import print_formatted_text
+from prompt_toolkit2.formatted_text import ANSI, HTML
 
 print = print_formatted_text
 

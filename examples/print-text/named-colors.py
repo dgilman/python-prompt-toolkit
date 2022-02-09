@@ -4,10 +4,10 @@ Demonstration of all the ANSI colors.
 """
 from __future__ import print_function, unicode_literals
 
-from prompt_toolkit import HTML, print_formatted_text
-from prompt_toolkit.formatted_text import FormattedText
-from prompt_toolkit.output import ColorDepth
-from prompt_toolkit.styles.named_colors import NAMED_COLORS
+from prompt_toolkit2 import HTML, print_formatted_text
+from prompt_toolkit2.formatted_text import FormattedText
+from prompt_toolkit2.output import ColorDepth
+from prompt_toolkit2.styles.named_colors import NAMED_COLORS
 
 print = print_formatted_text
 

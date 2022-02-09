@@ -4,10 +4,10 @@ Horizontal align demo with HSplit.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.formatted_text import HTML
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout.containers import (
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.formatted_text import HTML
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout.containers import (
     HorizontalAlign,
     HSplit,
     VerticalAlign,
@@ -15,10 +15,10 @@ from prompt_toolkit.layout.containers import (
     Window,
     WindowAlign,
 )
-from prompt_toolkit.layout.controls import FormattedTextControl
-from prompt_toolkit.layout.dimension import D
-from prompt_toolkit.layout.layout import Layout
-from prompt_toolkit.widgets import Frame
+from prompt_toolkit2.layout.controls import FormattedTextControl
+from prompt_toolkit2.layout.dimension import D
+from prompt_toolkit2.layout.layout import Layout
+from prompt_toolkit2.widgets import Frame
 
 TITLE = HTML(""" <u>HSplit HorizontalAlign</u> example.
  Press <b>'q'</b> to quit.""")

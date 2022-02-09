@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 import threading
 import time
 
-from prompt_toolkit import prompt
-from prompt_toolkit.patch_stdout import patch_stdout
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.patch_stdout import patch_stdout
 
 
 def main():

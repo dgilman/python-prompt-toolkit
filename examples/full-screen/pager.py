@@ -6,15 +6,15 @@ from __future__ import unicode_literals
 
 from pygments.lexers.python import PythonLexer
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout.containers import HSplit, Window
-from prompt_toolkit.layout.controls import FormattedTextControl
-from prompt_toolkit.layout.dimension import LayoutDimension as D
-from prompt_toolkit.layout.layout import Layout
-from prompt_toolkit.lexers import PygmentsLexer
-from prompt_toolkit.styles import Style
-from prompt_toolkit.widgets import SearchToolbar, TextArea
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout.containers import HSplit, Window
+from prompt_toolkit2.layout.controls import FormattedTextControl
+from prompt_toolkit2.layout.dimension import LayoutDimension as D
+from prompt_toolkit2.layout.layout import Layout
+from prompt_toolkit2.lexers import PygmentsLexer
+from prompt_toolkit2.styles import Style
+from prompt_toolkit2.widgets import SearchToolbar, TextArea
 
 # Create one text buffer for the main content.
 

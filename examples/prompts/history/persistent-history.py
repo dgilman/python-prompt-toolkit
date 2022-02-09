@@ -6,8 +6,8 @@ arrow-up will go back in history.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import PromptSession
-from prompt_toolkit.history import FileHistory
+from prompt_toolkit2 import PromptSession
+from prompt_toolkit2.history import FileHistory
 
 
 def main():

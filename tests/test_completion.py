@@ -8,13 +8,13 @@ from contextlib import contextmanager
 
 from six import text_type
 
-from prompt_toolkit.completion import (
+from prompt_toolkit2.completion import (
     CompleteEvent,
     FuzzyWordCompleter,
     PathCompleter,
     WordCompleter,
 )
-from prompt_toolkit.document import Document
+from prompt_toolkit2.document import Document
 
 
 @contextmanager

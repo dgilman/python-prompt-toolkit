@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 import datetime
 
-from prompt_toolkit.shortcuts import prompt
+from prompt_toolkit2.shortcuts import prompt
 
 
 def get_prompt():

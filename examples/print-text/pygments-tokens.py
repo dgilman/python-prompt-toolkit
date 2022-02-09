@@ -9,9 +9,9 @@ import pygments
 from pygments.lexers.python import PythonLexer
 from pygments.token import Token
 
-from prompt_toolkit import print_formatted_text
-from prompt_toolkit.formatted_text import PygmentsTokens
-from prompt_toolkit.styles import Style
+from prompt_toolkit2 import print_formatted_text
+from prompt_toolkit2.formatted_text import PygmentsTokens
+from prompt_toolkit2.styles import Style
 
 
 def main():

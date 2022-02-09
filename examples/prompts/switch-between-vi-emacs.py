@@ -5,10 +5,10 @@ Example that displays how to switch between Emacs and Vi input mode.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.application.current import get_app
-from prompt_toolkit.enums import EditingMode
-from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.application.current import get_app
+from prompt_toolkit2.enums import EditingMode
+from prompt_toolkit2.key_binding import KeyBindings
 
 
 def run():

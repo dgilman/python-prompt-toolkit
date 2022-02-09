@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from prompt_toolkit.output.vt100 import _get_closest_ansi_color
+from prompt_toolkit2.output.vt100 import _get_closest_ansi_color
 
 
 def test_get_closest_ansi_color():

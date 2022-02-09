@@ -16,9 +16,9 @@ possible. ::
 
 import asyncio
 
-from prompt_toolkit.eventloop.defaults import use_asyncio_event_loop
-from prompt_toolkit.patch_stdout import patch_stdout
-from prompt_toolkit.shortcuts import PromptSession
+from prompt_toolkit2.eventloop.defaults import use_asyncio_event_loop
+from prompt_toolkit2.patch_stdout import patch_stdout
+from prompt_toolkit2.shortcuts import PromptSession
 
 loop = asyncio.get_event_loop()
 

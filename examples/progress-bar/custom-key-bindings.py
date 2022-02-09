@@ -9,10 +9,10 @@ import os
 import signal
 import time
 
-from prompt_toolkit import HTML
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.patch_stdout import patch_stdout
-from prompt_toolkit.shortcuts import ProgressBar
+from prompt_toolkit2 import HTML
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.patch_stdout import patch_stdout
+from prompt_toolkit2.shortcuts import ProgressBar
 
 
 def main():

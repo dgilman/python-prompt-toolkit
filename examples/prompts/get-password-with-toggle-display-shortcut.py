@@ -5,9 +5,9 @@ With the addition of a ControlT shortcut to hide/show the input.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.filters import Condition
-from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.filters import Condition
+from prompt_toolkit2.key_binding import KeyBindings
 
 
 def main():

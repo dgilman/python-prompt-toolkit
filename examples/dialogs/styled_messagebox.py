@@ -9,9 +9,9 @@ text.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.formatted_text import HTML
-from prompt_toolkit.shortcuts import message_dialog
-from prompt_toolkit.styles import Style
+from prompt_toolkit2.formatted_text import HTML
+from prompt_toolkit2.shortcuts import message_dialog
+from prompt_toolkit2.styles import Style
 
 # Custom color scheme.
 example_style = Style.from_dict({

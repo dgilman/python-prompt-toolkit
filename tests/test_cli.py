@@ -8,16 +8,16 @@ from __future__ import unicode_literals
 from functools import partial
 
 import pytest
-from prompt_toolkit.clipboard import ClipboardData, InMemoryClipboard
-from prompt_toolkit.enums import EditingMode
-from prompt_toolkit.filters import ViInsertMode
-from prompt_toolkit.history import InMemoryHistory
-from prompt_toolkit.input.defaults import create_pipe_input
-from prompt_toolkit.input.vt100_parser import ANSI_SEQUENCES
-from prompt_toolkit.key_binding.bindings.named_commands import prefix_meta
-from prompt_toolkit.key_binding.key_bindings import KeyBindings
-from prompt_toolkit.output import DummyOutput
-from prompt_toolkit.shortcuts import PromptSession
+from prompt_toolkit2.clipboard import ClipboardData, InMemoryClipboard
+from prompt_toolkit2.enums import EditingMode
+from prompt_toolkit2.filters import ViInsertMode
+from prompt_toolkit2.history import InMemoryHistory
+from prompt_toolkit2.input.defaults import create_pipe_input
+from prompt_toolkit2.input.vt100_parser import ANSI_SEQUENCES
+from prompt_toolkit2.key_binding.bindings.named_commands import prefix_meta
+from prompt_toolkit2.key_binding.key_bindings import KeyBindings
+from prompt_toolkit2.output import DummyOutput
+from prompt_toolkit2.shortcuts import PromptSession
 
 
 def _history():

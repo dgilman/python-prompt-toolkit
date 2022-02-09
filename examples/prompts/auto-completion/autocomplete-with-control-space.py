@@ -4,9 +4,9 @@ Example of using the control-space key binding for auto completion.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.completion import WordCompleter
+from prompt_toolkit2.key_binding import KeyBindings
 
 animal_completer = WordCompleter([
     'alligator', 'ant', 'ape', 'bat', 'bear', 'beaver', 'bee', 'bison',

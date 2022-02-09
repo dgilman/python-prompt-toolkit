@@ -4,9 +4,9 @@ An example of a custom lexer that prints the input text in random colors.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit.lexers import Lexer
-from prompt_toolkit.shortcuts import prompt
-from prompt_toolkit.styles.named_colors import NAMED_COLORS
+from prompt_toolkit2.lexers import Lexer
+from prompt_toolkit2.shortcuts import prompt
+from prompt_toolkit2.styles.named_colors import NAMED_COLORS
 
 
 class RainbowLexer(Lexer):

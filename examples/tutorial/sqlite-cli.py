@@ -6,10 +6,10 @@ import sys
 
 from pygments.lexers.sql import SqlLexer
 
-from prompt_toolkit import PromptSession
-from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.lexers import PygmentsLexer
-from prompt_toolkit.styles import Style
+from prompt_toolkit2 import PromptSession
+from prompt_toolkit2.completion import WordCompleter
+from prompt_toolkit2.lexers import PygmentsLexer
+from prompt_toolkit2.styles import Style
 
 sql_completer = WordCompleter([
     'abort', 'action', 'add', 'after', 'all', 'alter', 'analyze', 'and',

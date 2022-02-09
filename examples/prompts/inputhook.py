@@ -17,10 +17,10 @@ from pygments.lexers.python import PythonLexer
 
 import gobject
 import gtk
-from prompt_toolkit.eventloop.defaults import create_event_loop
-from prompt_toolkit.lexers import PygmentsLexer
-from prompt_toolkit.patch_stdout import patch_stdout
-from prompt_toolkit.shortcuts import PromptSession
+from prompt_toolkit2.eventloop.defaults import create_event_loop
+from prompt_toolkit2.lexers import PygmentsLexer
+from prompt_toolkit2.patch_stdout import patch_stdout
+from prompt_toolkit2.shortcuts import PromptSession
 
 
 def hello_world_window():

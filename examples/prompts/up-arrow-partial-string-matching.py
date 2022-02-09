@@ -7,8 +7,8 @@ history on the items starting with the given input text.
 """
 from __future__ import print_function, unicode_literals
 
-from prompt_toolkit import PromptSession
-from prompt_toolkit.history import InMemoryHistory
+from prompt_toolkit2 import PromptSession
+from prompt_toolkit2.history import InMemoryHistory
 
 
 def main():

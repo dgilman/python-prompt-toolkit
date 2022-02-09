@@ -6,11 +6,11 @@ from __future__ import unicode_literals
 
 import asyncio
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.eventloop import use_asyncio_event_loop
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout import Layout
-from prompt_toolkit.widgets import Box, Frame, TextArea
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.eventloop import use_asyncio_event_loop
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout import Layout
+from prompt_toolkit2.widgets import Box, Frame, TextArea
 
 # Layout for displaying hello world.
 # (The frame creates the border, the box takes care of the margin/padding.)

@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 
 import pytest
-from prompt_toolkit.document import Document
+from prompt_toolkit2.document import Document
 
 
 @pytest.fixture

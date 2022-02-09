@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from prompt_toolkit.styles import (
+from prompt_toolkit2.styles import (
     Attrs,
     Style,
     SwapLightAndDarkStyleTransformation,

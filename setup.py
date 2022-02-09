@@ -19,12 +19,12 @@ def get_version(package):
 
 
 setup(
-    name='prompt_toolkit',
+    name='prompt_toolkit2',
     author='Jonathan Slenders',
-    version=get_version('prompt_toolkit'),
+    version=get_version('prompt_toolkit2'),
     license='BSD-3-Clause',
     url='https://github.com/jonathanslenders/python-prompt-toolkit',
-    description='Library for building powerful interactive command lines in Python',
+    description='Renamed fork of v2.0 prompt-toolkit',
     long_description=long_description,
     packages=find_packages('.'),
     install_requires=[

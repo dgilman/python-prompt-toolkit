@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from prompt_toolkit.eventloop import (
+from prompt_toolkit2.eventloop import (
     AsyncGeneratorItem,
     From,
     Future,

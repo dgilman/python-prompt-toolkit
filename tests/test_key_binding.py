@@ -1,14 +1,14 @@
 from __future__ import unicode_literals
 
 import pytest
-from prompt_toolkit.application import Application
-from prompt_toolkit.application.current import set_app
-from prompt_toolkit.input.defaults import create_pipe_input
-from prompt_toolkit.key_binding.key_bindings import KeyBindings
-from prompt_toolkit.key_binding.key_processor import KeyPress, KeyProcessor
-from prompt_toolkit.keys import Keys
-from prompt_toolkit.layout import Layout, Window
-from prompt_toolkit.output import DummyOutput
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.application.current import set_app
+from prompt_toolkit2.input.defaults import create_pipe_input
+from prompt_toolkit2.key_binding.key_bindings import KeyBindings
+from prompt_toolkit2.key_binding.key_processor import KeyPress, KeyProcessor
+from prompt_toolkit2.keys import Keys
+from prompt_toolkit2.layout import Layout, Window
+from prompt_toolkit2.output import DummyOutput
 
 
 class Handlers(object):

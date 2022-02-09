@@ -6,9 +6,9 @@ from __future__ import unicode_literals
 
 import logging
 
-from prompt_toolkit.contrib.telnet.server import TelnetServer
-from prompt_toolkit.eventloop import From, get_event_loop
-from prompt_toolkit.shortcuts.dialogs import yes_no_dialog
+from prompt_toolkit2.contrib.telnet.server import TelnetServer
+from prompt_toolkit2.eventloop import From, get_event_loop
+from prompt_toolkit2.shortcuts.dialogs import yes_no_dialog
 
 # Set up logging
 logging.basicConfig()

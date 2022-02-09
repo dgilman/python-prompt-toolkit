@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import sys
 
-from prompt_toolkit import prompt
-from prompt_toolkit.formatted_text import ANSI
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.formatted_text import ANSI
 
 BEFORE_PROMPT = '\033]133;A\a'
 AFTER_PROMPT = '\033]133;B\a'

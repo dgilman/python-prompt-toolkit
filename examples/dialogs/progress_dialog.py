@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 import os
 import time
 
-from prompt_toolkit.shortcuts import progress_dialog
+from prompt_toolkit2.shortcuts import progress_dialog
 
 
 def worker(set_percentage, log_text):

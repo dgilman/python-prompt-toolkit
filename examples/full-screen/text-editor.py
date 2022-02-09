@@ -6,13 +6,13 @@ from __future__ import unicode_literals
 
 import datetime
 
-from prompt_toolkit.application import Application
-from prompt_toolkit.application.current import get_app
-from prompt_toolkit.completion import PathCompleter
-from prompt_toolkit.eventloop import From, Future, Return, ensure_future
-from prompt_toolkit.filters import Condition
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout.containers import (
+from prompt_toolkit2.application import Application
+from prompt_toolkit2.application.current import get_app
+from prompt_toolkit2.completion import PathCompleter
+from prompt_toolkit2.eventloop import From, Future, Return, ensure_future
+from prompt_toolkit2.filters import Condition
+from prompt_toolkit2.key_binding import KeyBindings
+from prompt_toolkit2.layout.containers import (
     ConditionalContainer,
     Float,
     HSplit,
@@ -20,14 +20,14 @@ from prompt_toolkit.layout.containers import (
     Window,
     WindowAlign,
 )
-from prompt_toolkit.layout.controls import FormattedTextControl
-from prompt_toolkit.layout.dimension import D
-from prompt_toolkit.layout.layout import Layout
-from prompt_toolkit.layout.menus import CompletionsMenu
-from prompt_toolkit.lexers import DynamicLexer, PygmentsLexer
-from prompt_toolkit.search import start_search
-from prompt_toolkit.styles import Style
-from prompt_toolkit.widgets import (
+from prompt_toolkit2.layout.controls import FormattedTextControl
+from prompt_toolkit2.layout.dimension import D
+from prompt_toolkit2.layout.layout import Layout
+from prompt_toolkit2.layout.menus import CompletionsMenu
+from prompt_toolkit2.lexers import DynamicLexer, PygmentsLexer
+from prompt_toolkit2.search import start_search
+from prompt_toolkit2.styles import Style
+from prompt_toolkit2.widgets import (
     Button,
     Dialog,
     Label,

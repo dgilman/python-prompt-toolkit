@@ -8,7 +8,7 @@ allow any editing.
 """
 from __future__ import unicode_literals
 
-from prompt_toolkit import HTML, prompt
+from prompt_toolkit2 import HTML, prompt
 
 if __name__ == '__main__':
     answer = prompt(

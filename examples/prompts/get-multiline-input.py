@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from __future__ import unicode_literals
 
-from prompt_toolkit import prompt
-from prompt_toolkit.formatted_text import HTML
+from prompt_toolkit2 import prompt
+from prompt_toolkit2.formatted_text import HTML
 
 
 def prompt_continuation(width, line_number, wrap_count):
